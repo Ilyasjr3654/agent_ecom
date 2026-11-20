@@ -1,0 +1,124 @@
+{
+  "acquired_on": "2026-11-20",
+  "statistics": {
+    "abcd": {
+      "train": 8034,
+      "dev": 1004,
+      "test": 1004
+    },
+    "olist": {
+      "olist_customers_dataset.csv": 99441,
+      "olist_order_items_dataset.csv": 112650,
+      "olist_order_payments_dataset.csv": 103886,
+      "olist_order_reviews_dataset.csv": 99224,
+      "olist_orders_dataset.csv": 99441,
+      "olist_products_dataset.csv": 32951,
+      "olist_sellers_dataset.csv": 3095,
+      "product_category_name_translation.csv": 71
+    },
+    "twitter": {
+      "brands": [
+        "AmazonHelp",
+        "ArgosHelpers",
+        "AskTarget",
+        "AskeBay",
+        "NeweggService",
+        "NikeSupport",
+        "Walmart",
+        "marksandspencer"
+      ],
+      "eligible_threads": 119622,
+      "splits": {
+        "train": {
+          "threads": 7000,
+          "tweets": 29299
+        },
+        "validation": {
+          "threads": 1500,
+          "tweets": 6127
+        },
+        "test": {
+          "threads": 1500,
+          "tweets": 6175
+        }
+      },
+      "split_method": "connected components; SHA256(42:component_id), 70/15/15",
+      "limitations": "No intent annotations; source may omit tweets. Semantic near-duplicates and remaining personal data need review before model training."
+    }
+  },
+  "files": {
+    "data/raw/abcd/LICENSE": {
+      "sha256": "3ab7e179a7f13027b7bc64293541f0e9beacca3701cade67fb8fce78c2d9317b",
+      "bytes": 1071
+    },
+    "data/raw/abcd/abcd_v1.1.json.gz": {
+      "sha256": "2bdf53ac359543dcdc38d55bc6513e78df120363f8f44870716e909f4606de15",
+      "bytes": 36985084
+    },
+    "data/raw/abcd/guidelines.json": {
+      "sha256": "9264557941df24fe075138a632a2345172971573124a354ccb2ceee2a12e4c2a",
+      "bytes": 95293
+    },
+    "data/raw/abcd/kb.json": {
+      "sha256": "7b1cdb1002e3353451f9a3c3f389f1eabd8ae5d46c1d76f567c71819711f3857",
+      "bytes": 5186
+    },
+    "data/raw/abcd/ontology.json": {
+      "sha256": "2e1c1d763518ba084ada7f7bc8b54f0b489c81da3b170875cf9340891e06524c",
+      "bytes": 5770
+    },
+    "data/raw/abcd/utterances.json.gz": {
+      "sha256": "b7a971ea28b8d9a123eefa0bbfda046e1a0e05a0f4e76b88855ba11f04b11770",
+      "bytes": 1243018
+    },
+    "data/raw/olist/olist_customers_dataset.csv.gz": {
+      "sha256": "6d74f696813857c2c56a891787621e595b0fb46fdbc14db9e27a9bc4e3540c7d",
+      "bytes": 4787091
+    },
+    "data/raw/olist/olist_order_items_dataset.csv.gz": {
+      "sha256": "0dcf747c4f90429388da7140bfb3d64dbc3d44c5006290189cf0be26619c4289",
+      "bytes": 6617303
+    },
+    "data/raw/olist/olist_order_payments_dataset.csv.gz": {
+      "sha256": "d9a247d8c7436122a6efc50c18d9a7b6ac552404c7c7f10039638b949c41760e",
+      "bytes": 2566524
+    },
+    "data/raw/olist/olist_order_reviews_dataset.csv.gz": {
+      "sha256": "f70b8dc7d04f612bf19cd797821a92d0eedb36bb3ec03fedabae72ce592bb6fa",
+      "bytes": 6653880
+    },
+    "data/raw/olist/olist_orders_dataset.csv.gz": {
+      "sha256": "7aaa60c3f203927752be8fbd8f6e5962cbd4fef119f7a3a3b6d68cb6fd06bd74",
+      "bytes": 6927164
+    },
+    "data/raw/olist/olist_products_dataset.csv.gz": {
+      "sha256": "22f0cfebf35a5db7e22f861d403c49a699dfd6df8c1ea074cc637b37c6104855",
+      "bytes": 1051895
+    },
+    "data/raw/olist/olist_sellers_dataset.csv.gz": {
+      "sha256": "dead0f1f0c222b1393da40b6c5214f5f796fbbcb5002476a90d359553d54d962",
+      "bytes": 83596
+    },
+    "data/raw/olist/product_category_name_translation.csv.gz": {
+      "sha256": "95f5b6764ab1a6f6adc496031f3d5dcf3a443b7cca5c57c6cb91bf14e4fd3e90",
+      "bytes": 1105
+    },
+    "data/processed/twitter/test.jsonl.gz": {
+      "sha256": "b6d548c8cabebb9a944f3a3625ef6e7b43849158a5077dd38e733093b69c8ccf",
+      "bytes": 472114
+    },
+    "data/processed/twitter/train.jsonl.gz": {
+      "sha256": "4a815684f1a48438d8fa467e391259858fd947c61a4b6808795c8c8eb7e8dc46",
+      "bytes": 2186320
+    },
+    "data/processed/twitter/validation.jsonl.gz": {
+      "sha256": "6d1326edd404ca280cc965f3af458838b633cf362e4be506145f156e8cfbbd40",
+      "bytes": 467024
+    }
+  },
+  "amazon": {
+    "status": "not_redistributed",
+    "reason": "No explicit data redistribution license from publisher",
+    "source": "https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023"
+  }
+}
