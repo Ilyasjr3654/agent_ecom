@@ -1,0 +1,42 @@
+{
+  "olist.zip": {
+    "url": "https://www.kaggle.com/api/v1/datasets/download/olistbr/brazilian-ecommerce?datasetVersionNumber=2",
+    "sha256": "967e41e04fc306fe604e2a693f488995a8b41e5047418f8a5c8e4abd6deca784",
+    "bytes": 44717580
+  },
+  "twitter.zip": {
+    "url": "https://www.kaggle.com/api/v1/datasets/download/thoughtvector/customer-support-on-twitter?datasetVersionNumber=10",
+    "sha256": "7ffe106c4158c22f79b2a220297e4090dd68fa034c6e58710578ad8cfeea558a",
+    "bytes": 176772673
+  },
+  "abcd_v1.1.json.gz": {
+    "url": "https://raw.githubusercontent.com/asappresearch/abcd/6b8700ce67c6b37b062dd7a60abc76d7ef832a97/data/abcd_v1.1.json.gz",
+    "sha256": "2bdf53ac359543dcdc38d55bc6513e78df120363f8f44870716e909f4606de15",
+    "bytes": 36985084
+  },
+  "guidelines.json": {
+    "url": "https://raw.githubusercontent.com/asappresearch/abcd/6b8700ce67c6b37b062dd7a60abc76d7ef832a97/data/guidelines.json",
+    "sha256": "9264557941df24fe075138a632a2345172971573124a354ccb2ceee2a12e4c2a",
+    "bytes": 95293
+  },
+  "kb.json": {
+    "url": "https://raw.githubusercontent.com/asappresearch/abcd/6b8700ce67c6b37b062dd7a60abc76d7ef832a97/data/kb.json",
+    "sha256": "7b1cdb1002e3353451f9a3c3f389f1eabd8ae5d46c1d76f567c71819711f3857",
+    "bytes": 5186
+  },
+  "ontology.json": {
+    "url": "https://raw.githubusercontent.com/asappresearch/abcd/6b8700ce67c6b37b062dd7a60abc76d7ef832a97/data/ontology.json",
+    "sha256": "2e1c1d763518ba084ada7f7bc8b54f0b489c81da3b170875cf9340891e06524c",
+    "bytes": 5770
+  },
+  "utterances.json": {
+    "url": "https://raw.githubusercontent.com/asappresearch/abcd/6b8700ce67c6b37b062dd7a60abc76d7ef832a97/data/utterances.json",
+    "sha256": "9fab5e55904d1b8f87322d463f04deec7cf8be002bdb6c6d583dae57ef4c7d5b",
+    "bytes": 5232154
+  },
+  "ABCD_LICENSE": {
+    "url": "https://raw.githubusercontent.com/asappresearch/abcd/6b8700ce67c6b37b062dd7a60abc76d7ef832a97/LICENSE",
+    "sha256": "3ab7e179a7f13027b7bc64293541f0e9beacca3701cade67fb8fce78c2d9317b",
+    "bytes": 1071
+  }
+}
